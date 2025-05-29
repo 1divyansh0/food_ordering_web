@@ -9,35 +9,35 @@ import { CiBowlNoodles } from "react-icons/ci";
 const categories = [
     { id: 1,
       name: 'All',
-      icon: <TiThSmallOutline className="w-25 h-25 md:h-15 md:w-15 text-green-500"/>
+      icon: <TiThSmallOutline className="w-20 h-20 md:h-15 md:w-15  text-white md:text-green-500"/>
 
     },
     { id: 2,
       name: 'breakfast',
-      icon: <MdBreakfastDining className="w-25 h-25 md:h-15 md:w-15 text-green-500"/>
+      icon: <MdBreakfastDining className="w-20 h-20 md:h-15 md:w-15 text-white md:text-green-500"/>
 
 
     },
   
     { id: 4,
       name: 'main_course',
-      icon: <MdOutlineDinnerDining className="w-25 h-25 md:h-15 md:w-15 text-green-500"/>
+      icon: <MdOutlineDinnerDining className="w-20 h-20 md:h-15 md:w-15 text-white md:text-green-500"/>
 
     },
     { id: 5,
       name: 'pizza',
-      icon: <FaPizzaSlice className="w-25 h-25 md:h-15 md:w-15 text-green-500"/>
+      icon: <FaPizzaSlice className="w-20 h-20 md:h-15 md:w-15 text-white md:text-green-500"/>
 
     },
     { id: 6,
       name: 'pasta',
-      icon: <CiBowlNoodles className="w-25 h-25 md:h-15 md:w-15 text-green-500"/>
+      icon: <CiBowlNoodles className="w-20 h-20 md:h-15 md:w-15 text-white md:text-green-500"/>
 
 
     },
     { id: 7,
       name: 'burger',
-      icon: <FaBurger className="w-25 h-25 md:h-15 md:w-15 text-green-500"/>
+      icon: <FaBurger className="w-20 h-20 md:h-15 md:w-15 text-white md:text-green-500"/>
 
     },
 
