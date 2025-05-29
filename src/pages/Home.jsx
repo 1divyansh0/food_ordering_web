@@ -7,7 +7,7 @@ import { datacontext } from '../context/UserContext'
 import { ImCross } from "react-icons/im"
 
 import { useSelector } from 'react-redux'
-import Card2 from '../components/card2'
+import Card2 from '../components/Card2'
 import { toast } from 'react-toastify'
 
 
