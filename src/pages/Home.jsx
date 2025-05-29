@@ -41,13 +41,13 @@ const Home = () => {
   return (
     <div className=' relative w-screen  bg-slate-200'>
       <Nav/>
-    {!input?<div className='flex justify-center gap-10 md:gap-6 items-center mt-1 flex-wrap '>
+    {!input?<div className='flex justify-center gap-4  md:gap-6 items-center mt-1 flex-wrap '>
        {categories.map((ele)=>{
          return <div onClick={()=>{
              fltr(ele.name)
-         }} className=' shadow-md h-40 w-40 md:h-30 md:w-25 bg-green-600 md:bg-white rounded-md flex flex-col justify-center items-center hover:bg-green-100 duration-200  p-3 gap-3'>
+         }} className=' shadow-md h-32 w-32 bg-green-600 md:bg-white rounded-md flex flex-col justify-center items-center hover:bg-green-100 duration-200  p-2 gap-1 md:gap-3'>
            {ele.icon}
-           <h1 className='font-semibold  text-white md:text-green-600 text-2xl md:text-sm'>{ele.name}</h1>
+           <h1 className='font-semibold  text-white md:text-green-600 text-xl md:text-md'>{ele.name}</h1>
           </div>
        })}
 
@@ -99,7 +99,7 @@ const Home = () => {
       
       </div>
       <div className='w-full h-20 bg-green-500 flex flex-col justify-center items-center gap-2'>
-        <h1 className='text-white font-semibold text-lg'>Food Odering App</h1>
+        <h1 className='text-white font-semibold text-lg'>Food Ordering App</h1>
          <h1 className='text-white font-semibold text-lg'>Made By Divyansh</h1>
       </div>
     </div>
