@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 import categories from '../components/Categories'
 import Card from '../components/card'
 import { food_items } from '../food'
